@@ -1,0 +1,131 @@
+/* CSS Document */
+html, body, p, h1, h2, h3, ul, ol, form, fieldset {
+	margin:0;
+	padding:0;
+	border:0;
+	}
+
+body{
+	background-color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+p{
+	margin:10px 0 0 10px;
+	font-size:small;
+	}
+	
+a:link{
+	color:#FC0;
+	}
+	
+a:visited{
+	}
+	
+a:hover{
+	}
+	
+a;active{
+	}
+	
+li{
+	margin:10px 10px;
+	list-style-image: url('images/marker.gif');
+	font-size:small;
+	list-style-position:inside;
+	}
+	
+ul{
+	}
+
+#wrapper{
+	width:770px;
+	margin:0 auto;
+	background-color:#39f;
+	}
+	
+.header{
+	background-image:url('images/header.gif');
+	height:279px;
+	}
+
+.content{
+	background-color:#39f;
+	}
+	
+.content_box{
+	width:665px;
+	margin:10px auto;
+	}
+	
+.content_top{
+	}
+	
+.content_centre{
+	background-color:#03c;
+	color:#FFF;
+	padding:10px;
+	}	
+		
+.content_bottom{
+	height:11px;
+	background-image:url(images/content_box_bottom.gif);
+	}
+	
+.footer_left{
+	background-image:url(images/footer-left.gif);
+	height:165px;
+	width:261px;
+	float:left;
+	}
+	
+.footer_right{
+	height:165px;
+	width:509px;
+	float:right;
+	}
+	
+.footer_white{
+	height:48px;
+	background-color:#FFF;
+	}
+	
+.footer_blue{
+	height:117px;
+	background-color:#39f;
+	}
+	
+.footer_white img{
+	float:right;
+	margin:11px;
+	position:relative;
+	}
+	
+.clearit{
+	clear:both;
+	width:770px;
+	height:10px;
+	background-color:#39f;
+	}
+	
+/*FORM*/		
+label{
+	width: 10em;
+	float: left;
+	text-align:right;
+	margin:3px 15px 0 0;
+	display:block;
+}
+
+.submit input{
+	color: #000;
+	background: #fc0;
+	margin-left: 11em;
+	} 
+
+fieldset{
+	border: 1px solid #781351;
+	width: 30em;
+}
+
+	
